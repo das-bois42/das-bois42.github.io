@@ -1,0 +1,14 @@
+* {
+  font-family: "Poppins",  sans-serif;
+}
+:root {
+  background-color: #eee;
+  padding: 5vmin;
+}
+#artiklar {
+  display: flex;
+  flex-direction: column;
+  a + a {
+    margin-block: 1rem;
+  }
+}
